@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Department</title>
+    <style>
+        /* Basic CSS styling */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Science Department</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to the CSE Department</h2>
+        <p>This is a sample webpage for the Computer Science Department.</p>
+        <p>You can add content, images, and more to customize this page.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 CSE Department</p>
+    </footer>
+</body>
+</html>
